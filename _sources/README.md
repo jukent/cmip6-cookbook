@@ -2,8 +2,9 @@
 
 # CMIP6 Cookbook
 
-[![nightly-build](https://github.com/ProjectPythiaTutorials/cmip6-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythiaTutorials/cmip6-cookbook/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder-staging.2i2c.cloud/badge_logo.svg)](https://binder-staging.2i2c.cloud/v2/gh/ProjectPythiaTutorials/cmip6-cookbook.git/main)
+[![nightly-build](https://github.com/ProjectPythia/cmip6-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cmip6-cookbook/actions/workflows/nightly-build.yaml)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cmip6-cookbook.git/main)
+[![DOI](https://zenodo.org/badge/507993770.svg)](https://zenodo.org/badge/latestdoi/507993770)
 
 This Project Pythia Cookbook covers examples of analysis of Google Cloud CMIP6 data using Pangeo tools.
 
@@ -17,34 +18,35 @@ With such a large amount of model output produced, moving the data around is ine
 
 ## Authors
 
-[Ryan Abernathey](https://github.com/rabernat), Henri Drake
+[Ryan Abernathey](https://github.com/rabernat), [Henri Drake](https://github.com/hdrake), [Robert Ford](https://github.com/r-ford), [Max Grover](https://github.com/mgrover1)
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythiaCookbooks/cmip6-cookbook/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythiaCookbooks/cmip6-cookbook" />
+<a href="https://github.com/ProjectPythia/cmip6-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythia/cmip6-cookbook" />
 </a>
 
 ## Structure
 
 ### Foundations
 
-This section includes three variations of downloading CMIP6 data from cloud storage.
+This section includes three variations of accessing CMIP6 data from cloud storage.
 
 ### Example workflows
 
-There are currently three examples of using this data to 
+There are currently four examples of using this data to 
 - Estimate equilibrium climate sensitivity (ECS)
 - Plot global mean surface temperature under two different [Shared Socioeconomic Pathways](https://unece.org/fileadmin/DAM/energy/se/pdfs/CSE/PATHWAYS/2019/ws_Consult_14_15.May.2019/supp_doc/SSP2_Overview.pdf)
 - Plot changes in precipitation intensity under the SSP585 scenario
+- Calculate changes in ocean heat uptake after regridding with xESMF
 
 ## Running the Notebooks
-You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
+You can either run the notebook using [Binder](https://binder.projectpythia.org) or on your local machine.
 
 ### Running on Binder
 
 The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://mybinder.org/), which enables the execution of a
+[Binder](https://binder.projectpythia.org), which enables the execution of a
 [Jupyter Book](https://jupyterbook.org) in the cloud. The details of how this works are not
 important for now. All you need to know is how to launch a Pythia
 Cookbooks chapter via Binder. Simply navigate your mouse to
@@ -61,10 +63,10 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 ### Running on Your Own Machine
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-1. Clone the `https://github.com/ProjectPythiaCookbooks/cmip6-cookbook` repository:
+1. Clone the `https://github.com/ProjectPythia/cmip6-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythiaCookbooks/cmip6-cookbook.git
+    git clone https://github.com/ProjectPythia/cmip6-cookbook.git
     ```  
 1. Move into the `cmip6-cookbook` directory
     ```bash
